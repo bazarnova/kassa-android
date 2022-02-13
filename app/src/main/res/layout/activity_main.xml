@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    tools:ignore="MissingClass">
+
+    <Button
+        android:id="@+id/buttonEditCheck"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/edit_check"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGetAllChecks" />
+
+    <Button
+        android:id="@+id/buttonGetAllChecks"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/get_all_checks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddNewCheck" />
+
+    <TextView
+        android:id="@+id/textViewChecks"
+        android:layout_width="406dp"
+        android:layout_height="381dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/textview"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGetAllChecks" />
+
+    <Button
+        android:id="@+id/buttonAddNewCheck"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:text="@string/new_check"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
